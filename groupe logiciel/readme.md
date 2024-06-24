@@ -1,10 +1,14 @@
 # Site de Vente en PHP
 
-Bienvenue dans notre projet de site de vente en ligne développé en PHP avec une architecture MVC (Modèle-Vue-Contrôleur). Ce projet a pour objectif de fournir une plateforme de vente robuste et scalable.
+Bienvenue dans notre projet de site de vente en ligne développé en PHP avec une architecture MVC (Modèle-Vue-Contrôleur). Ce projet a pour objectif de fournir une plateforme de vente somple et facile a gerer.
+
+pour achetter les produits les client on le button achetter qui renvoie vers le whatsap du vendeur avec un url de message precisant le produit en question 
+
+note : il y a encore bcp de modifications si vous vouller en faire un servive de vente securiser , nous nous somme limiter au developpement en mvc en rapport avec notre projet
 
 ## Architecture MVC
 
-![Architecture MVC](/public/captures/mvc.png)
+![Architecture MVC](public/captures/mvc.png)
 
 Notre site utilise le modèle MVC, ce qui signifie que le code est organisé en trois parties principales :
 - **Modèle** : Gère la logique de l'application et les interactions avec la base de données.
@@ -14,8 +18,8 @@ Notre site utilise le modèle MVC, ce qui signifie que le code est organisé en 
 ## Fonctionnalités
 
 - **Gestion des produits** : Ajout et suppression de produits.
-- **Système d'authentification** : Inscription, connexion et gestion des utilisateurs.
-- **Interface utilisateur** : Design responsive et intuitif pour une expérience utilisateur optimale.
+- **Système d'authentification** : Inscription, connexion et "gestion des utilisateurs".
+- **Interface utilisateur** : Design responsive et intuitif pour une expérience utilisateur optimale sur toute les plateformes grace a bootstrap.
 
 ## Installation
 
@@ -39,10 +43,10 @@ Pour installer et exécuter ce projet localement avec WAMP, suivez les étapes c
 4. **Configurez votre base de données** :
     - Démarrez WAMP et ouvrez phpMyAdmin.
     - Créez une nouvelle base de données.
-    - Importez le fichier `database.sql` situé dans le dossier `base de donee` dans votre nouvelle base de données.
+    - Importez le fichier `irt_shop.sql` situé dans le dossier `base de donee` dans votre nouvelle base de données.
 
 5. **Modifiez le fichier de configuration de la base de données** :
-    - Ouvrez le fichier `config/database.php`.
+    - Ouvrez le fichier `config/config.php`.
     - Modifiez les paramètres de connexion à la base de données (nom de la base de données, utilisateur, mot de passe, etc.).
 
 6. **Démarrez le serveur WAMP** :
@@ -55,7 +59,7 @@ Après avoir installé le projet, vous pouvez commencer à l'utiliser en créant
 
 -acceder au ficher "add_admin.php" et configuer votre nom d admin et mot de passe
 
--lancer votreprojet/"add_admin.php" dans l'url de votre projet principal pour ajouter l'admin
+-lancer l'url de votre projet +/add_admin.php dans le navigateur(c est bon l'admin configuer est operationnel)
 
 -vous pouvez utiliser les informations suivantes par defaut :
 
@@ -74,10 +78,10 @@ Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce proje
 
 ## Captures d'écran
 
-![Capture d'écran 1](/public/captures/header.png)
-![Capture d'écran 2](/public/captures/products.png)
-![Capture d'écran 3](/public/captures/footer.png)
-![Capture d'écran 4](/public/captures/add%20product.png)
-![Capture d'écran 5](/public/captures/about.png)
+![Capture d'écran 1](public/captures/header.png)
+![Capture d'écran 2](public/captures/products.png)
+![Capture d'écran 3](public/captures/footer.png)
+![Capture d'écran 4](public/captures/add%20product.png)
+![Capture d'écran 5](public/captures/about.png)
 
 Pour plus d'informations, veuillez contacter [augustehoundjago@gmail.com](mailto:augustehoundjago@gmail.com).
