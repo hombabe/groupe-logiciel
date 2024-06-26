@@ -4,7 +4,7 @@ body{
 }
 
 .price{
-    background-color: rgba(9, 123, 223, 0.421);
+    background-color: rgba(9, 123, 223, 0.420);
     border-radius: 30px;
     border: 1px solid black;
     display: flex;
@@ -121,13 +121,9 @@ nav{
 }
 
 .icon{
-   
     z-index: 9999;
-
     width: 200px;
-    border: 1.5px solid black;
-   
-    
+    border: 1.5px solid black;   
 }
 
 .icon-text{
@@ -179,8 +175,7 @@ nav ul {
     padding: 0; 
     margin: 0; 
     justify-content: center;
-    position: sticky;
-    
+    position: sticky;    
 }
 
 nav ul li {
@@ -246,13 +241,11 @@ li img {
   }
   .wrapper .icon span i{
     line-height: 60px;
-    font-size: 25px;
-    
+    font-size: 25px; 
   }
   .wrapper .icon .tooltip{
     position: absolute;
-    top: 0px;
-    
+    top: 0px; 
     z-index: 1;
     background: #fff;
     color: #fff;
