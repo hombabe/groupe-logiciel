@@ -6,8 +6,6 @@
     <title>IRT_SHOP</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/svg+xml" href="public/images/irt-black.svg">
-
- 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
