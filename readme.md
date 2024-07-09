@@ -76,7 +76,7 @@ Pour installer et exécuter ce projet localement avec WAMP, suivez les étapes c
 
 5. **Modifiez le fichier de configuration de la base de données** :
     - Ouvrez le fichier `config/config.php`.
-    - Modifiez les paramètres de connexion à la base de données (nom de la base de données, utilisateur, mot de passe, etc.).
+    - Modifiez les paramètres de connexion à la base de données (nom de la base de données, utilisateur, mot de passe, etc..).
 
 6. **Démarrez le serveur WAMP** :
     - Assurez-vous que WAMP est en cours d'exécution.
