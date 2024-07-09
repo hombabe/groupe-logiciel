@@ -2,7 +2,7 @@
 <br>
 
 <footer class="footer">
-    <div class="container">
+    <div class="container ">
         <div class="row">
             <!-- Contact information numero github  -->
             <div class="col-md-4">
@@ -67,7 +67,7 @@
         </a>
     </div>
     <div class="icon github">
-        <a href="https://github.com/hombabe" target="_blank">
+        <a href="https://github.com/GOME-DARC" target="_blank">
             <div class="tooltip">
                 GOMEDark
             </div>
@@ -75,9 +75,17 @@
         </a>
     </div>
     <div class="icon github">
-        <a href="https://github.com/hombabe" target="_blank">
+        <a href="https://github.com/VictorVikah" target="_blank">
             <div class="tooltip">
                 Victor
+            </div>
+            <span><i class="fab fa-github"></i></span>
+        </a>
+    </div>
+    <div class="icon github">
+        <a href="hhttps://github.com/jeboy1" target="_blank">
+            <div class="tooltip">
+                Jeboy
             </div>
             <span><i class="fab fa-github"></i></span>
         </a>

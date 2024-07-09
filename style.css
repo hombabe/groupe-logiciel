@@ -458,6 +458,7 @@ a {
       background-color: #343a40;
       color: white;
       padding: 40px 0;
+      width: full;
   }
   .footer a {
       color: rgb(220, 154, 154);
